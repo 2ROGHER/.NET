@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\College",
+    "\\College\\CollegeBackendDemo",
+    "\\College\\CollegeBackendDemo\\Models",
+    "\\College\\CollegeBackendDemo\\Models\\DataModels"
   ],
+  "SelectedNode": "\\College\\CollegeBackendDemo\\Models\\DataModels\\Student.cs",
   "PreviewInSolutionExplorer": false
 }
