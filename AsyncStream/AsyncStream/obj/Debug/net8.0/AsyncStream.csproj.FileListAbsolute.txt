@@ -1,0 +1,5 @@
+C:\Users\ROGER\Documents\.NET\AsyncStream\AsyncStream\obj\Debug\net8.0\AsyncStream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROGER\Documents\.NET\AsyncStream\AsyncStream\obj\Debug\net8.0\AsyncStream.AssemblyInfoInputs.cache
+C:\Users\ROGER\Documents\.NET\AsyncStream\AsyncStream\obj\Debug\net8.0\AsyncStream.AssemblyInfo.cs
+C:\Users\ROGER\Documents\.NET\AsyncStream\AsyncStream\obj\Debug\net8.0\AsyncStream.csproj.CoreCompileInputs.cache
+C:\Users\ROGER\Documents\.NET\AsyncStream\AsyncStream\obj\Debug\net8.0\AsyncStream.sourcelink.json

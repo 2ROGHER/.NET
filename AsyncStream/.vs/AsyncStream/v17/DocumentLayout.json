@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|c:\\users\\roger\\documents\\.net\\asyncstream\\asyncstream\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|solutionrelative:asyncstream\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|c:\\users\\roger\\documents\\.net\\asyncstream\\asyncstream\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|solutionrelative:asyncstream\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|c:\\users\\roger\\documents\\.net\\asyncstream\\asyncstream\\calculadorahipotecasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|solutionrelative:asyncstream\\calculadorahipotecasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|c:\\users\\roger\\documents\\.net\\asyncstream\\asyncstream\\calculadorahipotecaasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE8FBF8-7451-4BED-A4D7-5EF340CBFF0D}|AsyncStream\\AsyncStream.csproj|solutionrelative:asyncstream\\calculadorahipotecaasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\README.md",
+              "RelativeDocumentMoniker": "AsyncStream\\README.md",
+              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\README.md",
+              "RelativeToolTip": "AsyncStream\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-05-06T20:47:57.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculadoraHipotecaAsync.cs",
+              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\CalculadoraHipotecaAsync.cs",
+              "RelativeDocumentMoniker": "AsyncStream\\CalculadoraHipotecaAsync.cs",
+              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\CalculadoraHipotecaAsync.cs",
+              "RelativeToolTip": "AsyncStream\\CalculadoraHipotecaAsync.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwFoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:28:12.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculadoraHipotecaSync.cs",
+              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\CalculadoraHipotecaSync.cs",
+              "RelativeDocumentMoniker": "AsyncStream\\CalculadoraHipotecaSync.cs",
+              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\CalculadoraHipotecaSync.cs",
+              "RelativeToolTip": "AsyncStream\\CalculadoraHipotecaSync.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:53:28.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\Program.cs",
+              "RelativeDocumentMoniker": "AsyncStream\\Program.cs",
+              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\AsyncStream\\AsyncStream\\Program.cs",
+              "RelativeToolTip": "AsyncStream\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:51:56.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
