@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|c:\\users\\roger\\documents\\.net\\collegebackenddemo\\collegeapi\\controllers\\postcontrollertranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|solutionrelative:collegeapi\\controllers\\postcontrollertranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|c:\\users\\roger\\documents\\.net\\collegebackenddemo\\collegeapi\\models\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|solutionrelative:collegeapi\\models\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|c:\\users\\roger\\documents\\.net\\collegebackenddemo\\collegeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|solutionrelative:collegeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|c:\\users\\roger\\documents\\.net\\collegebackenddemo\\collegeapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{7E4C042F-BD1E-4144-84C1-FC0F9C7DA075}|CollegeAPI\\CollegeAPI.csproj|solutionrelative:collegeapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SharedResources.cs",
-              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Models\\SharedResources.cs",
-              "RelativeDocumentMoniker": "CollegeAPI\\Models\\SharedResources.cs",
-              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Models\\SharedResources.cs",
-              "RelativeToolTip": "CollegeAPI\\Models\\SharedResources.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T23:11:37.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostControllerTranslate.cs",
-              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Controllers\\PostControllerTranslate.cs",
-              "RelativeDocumentMoniker": "CollegeAPI\\Controllers\\PostControllerTranslate.cs",
-              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Controllers\\PostControllerTranslate.cs",
-              "RelativeToolTip": "CollegeAPI\\Controllers\\PostControllerTranslate.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwBUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T23:08:49.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CollegeAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\Program.cs",
-              "RelativeToolTip": "CollegeAPI\\Program.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAAAG0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T22:57:56.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\README.md",
               "RelativeDocumentMoniker": "CollegeAPI\\README.md",
               "ToolTip": "C:\\Users\\ROGER\\Documents\\.NET\\CollegeBackEndDemo\\CollegeAPI\\README.md",
               "RelativeToolTip": "CollegeAPI\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAIwIMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-05-03T22:46:47.337Z",
+              "WhenOpened": "2024-05-06T15:35:25.847Z",
               "EditorCaption": ""
             }
           ]

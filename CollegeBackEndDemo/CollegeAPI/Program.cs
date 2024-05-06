@@ -7,11 +7,49 @@ using CollegeAPI.services;
 using CollegeAPI;
 using Microsoft.OpenApi.Models;
 
+// Tenemos que traer las opciones de Versionado
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+
+// 19. usar Serilog para incluirlo en uestro app
+using Serilog;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
+// 20. Configuraicon de Serilog
+builder.Host.UseSerilog((HostBuilderCtx, loggerConf) =>
+{
+    loggerConf
+        .WriteTo.Console()
+        .WriteTo.Debug()
+        .ReadFrom.Configuration(HostBuilderCtx.Configuration);
+});
 // 10. Agregar la localizacion de la aplicacion
 // Localizacion
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+
+// 13. tenemos que usar las peticiiones http, para ello necesitamos agregar la inyeccion de dependecinas.
+// Add httpclient para ealizar las peticciones (requests) http
+builder.Services.AddHttpClient(); // este paso es importante para las peticciones http.
+
+// 14. Ahora tenemos que agregar la gestion de control de versiones.
+builder.Services.AddApiVersioning(setup =>
+{
+    setup.DefaultApiVersion = new ApiVersion(1, 0); // 1.0 _ version
+    setup.AssumeDefaultVersionWhenUnspecified = true;
+    setup.ReportApiVersions = true;
+
+});
+
+// 15. Ahora tenemos que especificar como queremos documentar las versiones.
+builder.Services.AddVersionedApiExplorer(setup =>
+{
+    setup.GroupNameFormat = "v'VVV'";  // 1.0.0, 1.1.0, etc
+    setup.SubstituteApiVersionInUrl = true; // queremos que se agregue la version en la URL.
+});
+
 
 
 
@@ -25,7 +63,7 @@ builder.Services.AddDbContext<CollegeDBContext>(options => options.UseSqlServer(
 
 
 // 7. Add service of JWT authentication | autoritatiion
-builder.Services.AddJsonTokenService(options.) // cuando quereamo aniadir la informacion de nuestro token tenemos que agregar el servicio.
+builder.Services.AddJwtTokenServices(builder.Configuration); // cuando quereamo aniadir la informacion de nuestro token tenemos que agregar el servicio.
 
 
 // Build the configurations and other else more.
@@ -79,6 +117,9 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
+// 16. Configurar las optiones de generacion de Swagger.
+builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
+
 
 // 5. Habilitar el CORS
 builder.Services.AddCors(options =>
@@ -92,6 +133,10 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+
+// 17. Configurar los endpoints para swagger docs pafa cada una de las versiones gestinados.
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
 
 // 11. ADd SUpportted culturas agregar el soporte de culturas a la API
@@ -111,8 +156,22 @@ app.UseRequestLocalization(localizationOptions);
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    // 18. Configure Swagger Docs que se van a generar.
+    app.UseSwaggerUI(options =>
+    {
+        foreach(var description in apiVersionDescriptionProvider.ApiVersionDescriptions)
+        {
+            options.SwaggerEndpoint(
+                    $"/swagger/{description.GroupName}/swagger.json",
+                    description.GroupName.ToUpperInvariant()
+                ) ;
+        }
+    });
+
 }
+
+//21. Tenemos que decirle a la aplicaion que use Serilog y la configuracion ehcha.
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection(); // Redirections
 

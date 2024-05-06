@@ -5,10 +5,12 @@ namespace CollegeAPI.DataAccess
 {
     public class CollegeDBContext : DbContext
     {
-        // Este es el contexto de nuestra DB, el cual extiende del EntityFramework
-        public CollegeDBContext(DbContextOptions<CollegeDBContext> options):base(options)
-        {
+        private readonly ILoggerFactory _loggerFactory;
 
+        // Este es el contexto de nuestra DB, el cual extiende del EntityFramework
+        public CollegeDBContext(DbContextOptions<CollegeDBContext> options, ILoggerFactory loggerFactory):base(options)
+        {
+            _loggerFactory = loggerFactory;
         }
 
         // TODO: Add DbSets (Tables for the DDBB)
@@ -20,5 +22,18 @@ namespace CollegeAPI.DataAccess
 
         public DbSet<Chapter> Chapters { get; set; }
         public DbSet<Student> Students { get; set; }
+        
+        // cad avez que se realalice el proceso de crear, borrar, insertar estara registrado en la base de datos.
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var logger = _loggerFactory.CreateLogger<CollegeDBContext>();
+            // optionsBuilder.LogTo(d => logger.Log(LogLevel.Information, d, new[] { DbLoggerCategory.Database.Name }));
+            //optionsBuilder.EnableSensitiveDataLogging();     
+            // Poro si queremos leer deuna base de datos no seria recomendable dado que nos mostria dsdo informacion y no es recomendable
+
+            optionsBuilder.LogTo(d => logger.Log(LogLevel.Information, d, new[] { DbLoggerCategory.Database.Name }), LogLevel.Information)
+                .EnableSensitiveDataLogging() // agrega los datos si o si
+                .EnableDetailedErrors(); // y solo minifique ne lo maximo los tipos de errores.
+        }
     }
 }

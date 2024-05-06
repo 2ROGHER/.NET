@@ -251,3 +251,9 @@ C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\ref
 C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.pdb
 C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.genruntimeconfig.cache
 C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\ref\CollegeAPI.dll
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.Resources.Controllers.PostControllerTranslate .fr-FR.resources
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.Resources.Controllers.PostControllerTranslate.en-US.resources
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.Resources.Controllers.PostControllerTranslate.es-ES.resources
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.Resources.Entities.SharedResource.en-US.resources
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.Resources.Entities.SharedResource.es-ES.resources
+C:\Users\ROGER\Documents\.NET\CollegeBackEndDemo\CollegeAPI\obj\Debug\net8.0\CollegeAPI.csproj.GenerateResource.cache
